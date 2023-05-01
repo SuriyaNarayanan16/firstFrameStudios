@@ -1,0 +1,42 @@
+@import url(_dashboard.scss);
+.button_gradient {
+  background: -webkit-linear-gradient(84.28deg, #a61dc2 0%, #4e3cca 150.81%);
+}
+.card_graident {
+  background: -webkit-linear-gradient(
+    173.29deg,
+    #222121 2.8%,
+    #343131 45.9%,
+    #1b1818 94.74%
+  );
+}
+.header_after::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 45px;
+  height: 2px;
+  background: -webkit-linear-gradient(84.28deg, #a61dc2 0%, #4e3cca 150.81%);
+  top: 50%;
+  left: 100%;
+  margin: 0px 10px;
+  transform: translate(5%, -50%);
+}
+.header_after::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 45px;
+  height: 2px;
+  background: -webkit-linear-gradient(84.28deg, #a61dc2 0%, #4e3cca 150.81%);
+  top: 50%;
+  right: 100%;
+  margin: 0px 10px;
+  transform: translate(0%, -50%);
+}
+.header_after {
+  position: relative;
+}
+.big_collection {
+    transform: translate(-59%, 6%);
+}
