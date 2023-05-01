@@ -22,11 +22,9 @@ export const Dashboard = () => {
         >
           {" "}
           <img className="object-cover w-full h-full" src={banner} />
-          {/* banner */}
         </div>
 
         <div className="card_graident py-[120px]">
-          {/* start of  card -1 */}
           <div className="flex justify-between items-start px-[98px]">
             <div className="w-[40%]"> </div>
             <div className="w-[50%]">
