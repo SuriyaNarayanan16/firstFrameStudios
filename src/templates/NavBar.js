@@ -8,16 +8,28 @@ export const NavBar = () => {
           <img src={Logo} />
         </div>
         <div className="w-[50%] flex items-center justify-between">
-          <a href="/home" className="text-[16px] text-[#DEDEDE]">
+          <a
+            href="/home"
+            className="text-[16px] hover_underline text-[#DEDEDE]"
+          >
             Home
           </a>
-          <a href="/home" className="text-[16px] text-[#DEDEDE]">
+          <a
+            href="/home"
+            className="text-[16px] hover_underline text-[#DEDEDE]"
+          >
             Gallery
           </a>
-          <a href="/home" className="text-[16px] text-[#DEDEDE]">
+          <a
+            href="/about"
+            className="text-[16px] hover_underline text-[#DEDEDE]"
+          >
             About Us
           </a>
-          <a href="/home" className="text-[16px] text-[#DEDEDE]">
+          <a
+            href="/contact"
+            className="text-[16px] hover_underline text-[#DEDEDE]"
+          >
             Contact Us
           </a>
           <button className="border-0 px-[20px] py-[13px] font-medium text-[14px] text-[white] rounded-[4px] button_gradient">

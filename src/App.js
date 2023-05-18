@@ -4,6 +4,7 @@ import { GeneralRoutes } from "./routes/GeneralRoutes";
 import { BrowserRouter as Router } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "aos/dist/aos.css";
 function App() {
   AOS.init({ mirror: true, offset: 20, mirror: true });

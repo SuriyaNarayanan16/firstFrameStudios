@@ -1,5 +1,8 @@
-import { Services } from "../../components/services";
+import React, { lazy, Suspense } from "react";
 import banner from "../../images/banner1.jpeg";
+import banner2 from "../../images/banner2.jpeg";
+import banner3 from "../../images/banner3.jpeg";
+import banner4 from "../../images/banner4.jpeg";
 import cam from "../../images/camImage.svg";
 import whyUs1 from "../../images/whyUs/professional.svg";
 import whyUs2 from "../../images/whyUs/whyUs2.svg";
@@ -11,17 +14,40 @@ import collection4 from "../../images/collections/collection4.svg";
 import collection5 from "../../images/collections/collection5.svg";
 import star1 from "../../images/collections/star1.svg";
 import star2 from "../../images/collections/star2.svg";
+import { Carousel } from "react-responsive-carousel";
+const Services = lazy(() => import("../../components/services"));
 export const Dashboard = () => {
   return (
     <>
       <div className="">
-        <div
-          className="w-full h-full "
-          data-aos="fade-right"
-          data-aos-mirror="true"
-        >
-          {" "}
-          <img className="object-cover w-full h-full" src={banner} />
+        <div className="w-full h-full ">
+          <Carousel
+            autoPlay={true}
+            interval={3000}
+            showThumbs={false}
+            showIndicators={false}
+            infiniteLoop={true}
+            showArrows={false}
+            showStatus={false}
+            stopOnHover={false}
+          >
+            <div>
+              {" "}
+              <img className="object-cover w-full h-full" src={banner} />
+            </div>
+            <div>
+              {" "}
+              <img className="object-cover w-full h-full" src={banner2} />
+            </div>
+            <div>
+              {" "}
+              <img className="object-cover w-full h-full" src={banner3} />
+            </div>
+            <div>
+              {" "}
+              <img className="object-cover w-full h-full" src={banner4} />
+            </div>
+          </Carousel>
         </div>
 
         <div className="card_graident py-[120px]">
@@ -86,7 +112,9 @@ export const Dashboard = () => {
             </div>
 
             <div className="flex items-center justify-between flex-wrap">
-              <Services />
+              <Suspense fallback={<div>Loading...</div>}>
+                <Services />
+              </Suspense>
             </div>
           </div>
 

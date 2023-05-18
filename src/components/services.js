@@ -4,7 +4,7 @@ import service3 from "../images/servicesImage/service3.svg";
 import service4 from "../images/servicesImage/service4.svg";
 import service5 from "../images/servicesImage/service5.svg";
 import service6 from "../images/servicesImage/service6.svg";
-export const Services = () => {
+function Services() {
   const serviceList = [
     {
       image: service1,
@@ -49,4 +49,5 @@ export const Services = () => {
       ))}
     </>
   );
-};
+}
+export default Services;

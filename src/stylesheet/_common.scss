@@ -38,5 +38,30 @@
   position: relative;
 }
 .big_collection {
-    transform: translate(-59%, 6%);
+  transform: translate(-59%, 6%);
+}
+.hover_underline {
+  position: relative;
+  margin-bottom: 4px;
+}
+.hover_underline:hover {
+  color: #4e3cca;
+}
+.hover_underline:hover::after {
+  width: 100%;
+}
+.hover_underline::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #4e3cca;
+  transition: width 0.3s;
+}
+.about_us {
+  background-image: url(../../src/images/aboutBanner.jpeg);
+}
+
+.image_position {
+  transform: translate(-32%, -50%);
 }
