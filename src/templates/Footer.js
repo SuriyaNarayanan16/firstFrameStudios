@@ -10,7 +10,43 @@ export const Footer = () => {
           className="flex items-center justify-center pb-[50px]"
           data-aos="fade-right"
         >
-          <img className="" src={footerLogo} />
+          <div className="w-[33%]">
+            <p className="font-semibold text-[22px] mb-[25px]"> About Us</p>
+            <p className="text-[14px] text-[#CFCFCF]">
+              First Frame Studios is one of the Best wedding photographers in
+              Chennai. We Capture and frame your special moments to cherish a
+              lifetime.{" "}
+            </p>
+          </div>
+          <div className="w-[33%]">
+            <p className="font-semibold text-[22px] mb-[25px]"> Our Services</p>
+            <p className="text-[14px] text-[#CFCFCF] mb-[20px]">
+              Enagagement Photos
+            </p>
+            <p className="text-[14px] text-[#CFCFCF] mb-[20px]">
+              Wedding Couple Potraits
+            </p>
+            <p className="text-[14px] text-[#CFCFCF] mb-[20px]">
+              Candid Photography
+            </p>
+            <p className="text-[14px] text-[#CFCFCF] mb-[20px]">
+              Maternity photography
+            </p>
+            <p className="text-[14px] text-[#CFCFCF] mb-[20px]">
+              Kids / Doodle photography
+            </p>
+            <p className="text-[14px] text-[#CFCFCF] mb-[20px]">
+              Pre Wedding Photoshoots
+            </p>
+          </div>
+          <div className="w-[33%]">
+            <p className="font-semibold text-[22px] mb-[25px]"> About Us</p>
+            <p className="text-[14px] text-[#CFCFCF]">
+              First Frame Studios is one of the Best wedding photographers in
+              Chennai. We Capture and frame your special moments to cherish a
+              lifetime.{" "}
+            </p>
+          </div>
         </div>
         <div className="border-t border-[#413C3C] py-[40px] flex items-center justify-between">
           <p className="text-[20px] text-[#4E4D4D] ">©Firstframestudios2023.</p>

@@ -86,7 +86,7 @@ export const About = () => {
           </div>
           <div className="w-[40%] flex items-center justify-center relative">
             <img className="w-[504px] h-[482px] z-[9]" src={owner} />
-            <div className="absolute h-[220px] top-[100%] translate-x-[45%] translate-y-[-50%] right-[0%] image_position bg-[#333333] w-[240px]"></div>
+            <div className="absolute h-[220px] top-[100%]  translate-x-[45%] translate-y-[-50%] right-[0%] image_position bg-[#333333] w-[240px]"></div>
           </div>
         </div>
       </div>
