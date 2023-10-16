@@ -15,7 +15,7 @@ export const NavBar = () => {
             Home
           </a>
           <a
-            href="/home"
+            href="/gallery"
             className="text-[16px] hover_underline text-[#DEDEDE]"
           >
             Gallery
